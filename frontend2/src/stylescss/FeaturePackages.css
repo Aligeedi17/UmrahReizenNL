@@ -1,0 +1,40 @@
+.feature-packages {
+  background: #111615;
+  color: #f5f5f5;
+  padding: 80px 8%;
+}
+
+.feature-header {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.feature-header h2 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.feature-header p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.feature-button-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.feature-button {
+  display: inline-block;
+  background: #c99700;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.feature-button:hover {
+  background: #d6aa18;
+}

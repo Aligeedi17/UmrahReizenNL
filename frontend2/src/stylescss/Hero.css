@@ -1,0 +1,115 @@
+.hero {
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('../images/bookumrah.avif');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-content {
+  max-width: 560px;
+}
+
+.hero-label {
+  color: #d4af37;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e5e5e5;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.primary-btn,
+.secondary-btn,
+.travel-card button {
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background: #d4af37;
+  color: #000;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.hero-cards {
+  display: grid;
+  gap: 20px;
+  width: 380px;
+}
+
+.travel-card {
+  background: #fff;
+  color: #111;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.travel-card span {
+  color: #777;
+  font-size: 14px;
+}
+
+.travel-card h3 {
+  margin: 8px 0;
+}
+
+.travel-card p {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.travel-card strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #000;
+}
+
+.travel-card button {
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-cards {
+    width: 100%;
+  }
+}

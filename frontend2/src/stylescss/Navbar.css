@@ -1,0 +1,106 @@
+.nav {
+  background: #000;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;   /* 🔥 dit is de key */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo */
+.nav-logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.nav-logo img {
+  height: 40px;
+}
+
+/* Menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: #15cdfc;
+}
+
+/* Active link (React Router) */
+.nav-link.active {
+  color: #15cdfc;
+}
+
+/* Buttons */
+.nav-btn {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn-link {
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: 0.2s;
+}
+
+.nav-btn-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* WhatsApp specifiek */
+.nav-btn-link.whatsapp {
+  background: #25D366;
+}
+
+.nav-btn-link.whatsapp:hover {
+  background: #1ebe5d;
+  color: #fff;
+}
+
+/* Hamburger */
+.bars {
+  display: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .bars {
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+}
