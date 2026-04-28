@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import FeaturePackages from "../components/FeaturePackages";
 
 
