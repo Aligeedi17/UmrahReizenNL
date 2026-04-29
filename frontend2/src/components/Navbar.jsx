@@ -5,6 +5,11 @@ import '../stylescss/Navbar.css';
 import logo from '../images/logo.svg';
 
 const Navbar = () => {
+  const message = encodeURIComponent(
+  "As-salamu alaykoem!, ik wil graag meer informatie over jullie Umrah reizen."
+);
+
+const phone = "31612345678";
   return (
     <nav className="nav">
 
@@ -24,6 +29,10 @@ const Navbar = () => {
           Umrah
         </NavLink>
 
+        <NavLink to="/blogs" className="nav-link">
+          Blogs
+        </NavLink>
+
         <NavLink to="/contact" className="nav-link">
           Contact
         </NavLink>
@@ -32,7 +41,7 @@ const Navbar = () => {
 
       <div className="nav-btn">
         <a
-          href="https://wa.me/31612345678"
+          href={`https://wa.me/${phone}?text=${message}`}
           target="_blank"
           rel="noopener noreferrer"
           className="nav-btn-link whatsapp"

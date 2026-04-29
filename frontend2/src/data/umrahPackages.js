@@ -6,14 +6,16 @@ import ramadanperiode from "../images/ramadan-periode.jpg";
 
 
 export const umrahPackages = [
-  {
+
+      {
     id: 1,
-    title: "Umrah Juni - Saudia Airlines",
-    date: "11 jun '26 — 21 jun '26",
+    title: "Umrah Ramadan - Emirates Airlines",
+    date: "ramadan '26",
     days: "11 dagen",
-    price: "€2.095",
-    image: umrahJuni,
+    price: "€1.795",
+    image: ramadanperiode,
   },
+
   {
     id: 2,
     title: "Umrah Augustus - Saudia Airlines",
@@ -46,13 +48,14 @@ export const umrahPackages = [
     price: "€1.795",
     image: kaabamakkah,
   },
-    {
+  {
     id: 6,
-    title: "Umrah Ramadan - Emirates Airlines",
-    date: "ramadan '26",
+    title: "Umrah Juni - Saudia Airlines",
+    date: "11 jun '26 — 21 jun '26",
     days: "11 dagen",
-    price: "€1.795",
-    image: ramadanperiode,
-  }
+    price: "€2.095",
+    image: umrahJuni,
+  },
 
 ];
+

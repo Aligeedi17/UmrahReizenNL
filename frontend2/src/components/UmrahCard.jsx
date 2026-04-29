@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function UmrahCard({ pakket }) {
+  const navigate = useNavigate();
   return (
     <article className="umrah-card">
       <div className="umrah-image-wrapper">
@@ -21,7 +23,7 @@ function UmrahCard({ pakket }) {
         <div className="umrah-card-bottom">
           <div className="umrah-actions">
             <button>Bekijk</button>
-            <button>Boeken →</button>
+            <button onClick={() => navigate("/boeking")}>Boeken →</button>
           </div>
 
 

@@ -55,7 +55,7 @@ function Footer() {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} UmrahReizenNL. All rights reserved.
+        &copy; {new Date().getFullYear()} UmrahReizenNL. Alle rechten voorbehouden. | <a href="/privacy">Privacybeleid</a> | <a href="/terms">Algemene voorwaarden</a>
       </div>
 
     </footer>
