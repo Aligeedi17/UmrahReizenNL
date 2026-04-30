@@ -8,6 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Blogs from './pages/Blogs'
 import Boeking from './pages/Boeking'
+import Footer from './components/footer'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/boeking" element={<Boeking />} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }
