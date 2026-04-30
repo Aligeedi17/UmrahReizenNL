@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylescss/Hero.css';
 import { umrahPackages } from '../data/umrahPackages';
-import "../stylescss/umrah.css";
 
 const Hero = () => {
   const nextTrip = umrahPackages[0];
